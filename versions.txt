@@ -1,2 +1,1 @@
-lethal-modder=1.0.1
-zero-test=1.0.0
+lethal-modder=1.0.2
