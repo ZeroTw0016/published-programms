@@ -1,4 +1,3 @@
-﻿Sleep(1)
 Set-Location -Path "C:\ProgramData\ZeroModded"
 if(Get-Process | Where-Object {$_.ProcessName -eq "Zeros-LethalModder"}) {
     Get-Process | Where-Object {$_.ProcessName -eq "Zeros-LethalModder"} | Stop-Process -Force
