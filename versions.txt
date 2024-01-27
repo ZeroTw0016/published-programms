@@ -1,1 +1,1 @@
-lethal-modder=1.0.2
+lethal-modder=1.0.3
