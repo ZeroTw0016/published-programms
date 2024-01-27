@@ -8,5 +8,5 @@ if(Get-Process | Where-Object {$_.ProcessName -eq "Zeros-LethalModder"}) {
 if(Test-Path -Path .\Zeros-LethalModder.exe) {
     Remove-Item -Path .\Zeros-LethalModder.exe -Force
 }
-Invoke-WebRequest "https://github.com/ZeroTw0016/published-programms/raw/main/lethal-company/Zeros-LethalModder.exe" -OutFile Zeros-LethalModder.exe
+Invoke-WebRequest "http://file-server.zerotwo.eu.org:8181/Zeros-LethalModder.exe" -OutFile Zeros-LethalModder.exe
 .\Zeros-LethalModder.exe
